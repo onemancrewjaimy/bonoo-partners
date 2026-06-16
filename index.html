@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bonoo & Partners – Administratie- en Belastingadviesburo in Purmerend. Vakkundig en betrouwbaar voor particulieren en bedrijven sinds 1983." />
+  <title>Bonoo &amp; Partners – Belastingadvies &amp; Administratie Purmerend</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════
+       HEADER / NAV
+  ═══════════════════════════════════════════════ -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="Bonoo &amp; Partners – naar beginpagina">
+        <img src="assets/images/logo.png" alt="Bonoo &amp; Partners" class="logo-img" />
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu openen" aria-expanded="false" aria-controls="nav-overlay">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+
+    <!-- Nav overlay -->
+    <nav class="nav-overlay" id="nav-overlay" aria-hidden="true">
+      <button class="nav-close" id="nav-close" aria-label="Menu sluiten">&#x2715;</button>
+      <ul class="nav-links" role="list">
+        <li><a href="#home"       class="nav-link">Home</a></li>
+        <li><a href="#over-ons"   class="nav-link">Over ons</a></li>
+        <li><a href="#expertise"  class="nav-link">Expertise</a></li>
+        <li><a href="#diensten"   class="nav-link">Diensten</a></li>
+        <li><a href="#particulieren" class="nav-link">Particulieren</a></li>
+        <li><a href="#bedrijven"  class="nav-link">Bedrijven</a></li>
+        <li><a href="#werkwijze"  class="nav-link">Werkwijze</a></li>
+        <li><a href="#contact"    class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-accent nav-cta nav-link">Afspraak maken</a>
+    </nav>
+    <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════════
+         1. HERO
+    ═══════════════════════════════════════════════ -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="trust-badge" aria-label="Vertrouwensbadge">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Sinds 1983 – Ruim 40 jaar ervaring
+        </div>
+        <h1 class="hero-title">Uw financiële zaken<br>in vertrouwde handen</h1>
+        <p class="hero-tagline">Vakkundig en betrouwbaar sinds 1983</p>
+        <p class="hero-pitch">Voor al uw belastingzaken kunt u bij ons terecht.<br>Kwaliteit voor een eerlijke prijs, persoonlijke begeleiding van begin tot eind.</p>
+        <div class="hero-actions">
+          <a href="tel:02994218881" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.63 19.79 19.79 0 01.22 1.18 2 2 0 012.2.02h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Bel ons
+          </a>
+          <a href="#contact" class="btn btn-outline nav-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Maak een afspraak
+          </a>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         2. CIJFERS
+    ═══════════════════════════════════════════════ -->
+    <section class="stats" aria-label="Kerncijfers Bonoo &amp; Partners">
+      <div class="container stats-inner">
+        <div class="stat-item">
+          <span class="stat-number">40<span class="stat-plus">+</span></span>
+          <span class="stat-label">Jaar ervaring</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-number">1983</span>
+          <span class="stat-label">Opgericht in Purmerend</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-number">1000<span class="stat-plus">+</span></span>
+          <span class="stat-label">Verzorgde aangiftes</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-number">1 op 1</span>
+          <span class="stat-label">Persoonlijk contact</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         3. OVER ONS
+    ═══════════════════════════════════════════════ -->
+    <section class="section over-ons" id="over-ons">
+      <div class="container">
+        <div class="section-grid">
+          <div class="section-text">
+            <span class="section-label">Over ons</span>
+            <h2 class="section-title">Een vertrouwd gezicht in Purmerend sinds 1983</h2>
+            <p>Bonoo &amp; Partners is al meer dan veertig jaar het vaste aanspreekpunt voor particulieren en ondernemers in Purmerend en omgeving. Wat begon als een klein maar gedegen kantoor, is uitgegroeid tot een ervaren team dat generaties klanten begeleidt bij belastingaangiftes, administratie en financieel advies.</p>
+            <p>We kennen onze klanten bij naam. Dat is geen marketingslogan, maar de manier waarop wij werken. U heeft altijd te maken met dezelfde adviseur die uw situatie kent, uw vragen begrijpt en precies weet wat er nodig is.</p>
+            <p>Vakkundig, betrouwbaar en persoonlijk – drie woorden die ons al meer dan vier decennia definiëren.</p>
+            <ul class="check-list" role="list">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Vaste aanspreekpunten, geen anoniem loket
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Diepgaande kennis van de Nederlandse fiscale regels
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Transparante tarieven, eerlijk en zonder verrassingen
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Jarenlange klantrelaties op basis van wederzijds vertrouwen
+              </li>
+            </ul>
+          </div>
+          <div class="section-visual">
+            <img
+              src="assets/images/kantoor-interieur.jpg"
+              alt="Kantoor Bonoo &amp; Partners in Purmerend"
+              class="about-photo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         4. EXPERTISE
+    ═══════════════════════════════════════════════ -->
+    <section class="section expertise" id="expertise">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Expertise</span>
+          <h2 class="section-title">Grondige kennis, actuele regelgeving</h2>
+          <p class="section-intro">De Nederlandse belastingwetgeving verandert elk jaar. Wij houden dit nauwgezet bij, zodat u altijd profiteert van elke aftrekpost waarop u recht heeft – en nooit meer betaalt dan nodig is.</p>
+        </div>
+        <div class="expertise-grid">
+          <div class="expertise-card">
+            <div class="expertise-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <h3>Belastingaangifte</h3>
+            <p>Particulier of ondernemer – wij verzorgen een correcte en volledige aangifte inkomstenbelasting, vennootschapsbelasting en BTW.</p>
+          </div>
+          <div class="expertise-card">
+            <div class="expertise-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3>Jaarrekeningen</h3>
+            <p>Wij stellen uw jaarrekening op conform de wettelijke vereisten en presenteren een helder beeld van uw financiële positie.</p>
+          </div>
+          <div class="expertise-card">
+            <div class="expertise-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <h3>Actuele regelgeving</h3>
+            <p>Meer dan veertig jaar volgen wij de fiscale wetgeving op de voet. U hoeft zelf niets bij te houden – wij zorgen dat u altijd compliant bent.</p>
+          </div>
+          <div class="expertise-card">
+            <div class="expertise-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <h3>Fiscaal advies</h3>
+            <p>Naast de aangifte denken wij proactief met u mee: belastingoptimalisatie, aftrekposten en slimme keuzes voor uw specifieke situatie.</p>
+          </div>
+          <div class="expertise-card">
+            <div class="expertise-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+            </div>
+            <h3>Maximale aftrekposten</h3>
+            <p>Wij kennen de aftrekposten waar particulieren en ondernemers recht op hebben. U betaalt nooit meer belasting dan wettelijk vereist.</p>
+          </div>
+          <div class="expertise-card">
+            <div class="expertise-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            </div>
+            <h3>Volledige administratie</h3>
+            <p>Van grootboek tot debiteuren- en crediteurenbeheer: wij zorgen dat uw administratie klopt, zodat u kunt focussen op uw onderneming.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         5. DIENSTEN
+    ═══════════════════════════════════════════════ -->
+    <section class="section diensten" id="diensten">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Diensten</span>
+          <h2 class="section-title">Alles onder één dak</h2>
+          <p class="section-intro">Bonoo &amp; Partners biedt een volledig pakket aan administratieve en fiscale diensten, afgestemd op uw situatie.</p>
+        </div>
+        <div class="diensten-grid">
+          <div class="dienst-card">
+            <div class="dienst-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            </div>
+            <h3>Belastingaangifte</h3>
+            <p>Inkomstenbelasting, VPB en BTW – correct en volledig.</p>
+          </div>
+          <div class="dienst-card">
+            <div class="dienst-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3>Jaarrekening</h3>
+            <p>Wettelijk correcte jaarrekening voor uw onderneming.</p>
+          </div>
+          <div class="dienst-card">
+            <div class="dienst-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+            </div>
+            <h3>Administratie</h3>
+            <p>Volledige verwerking van uw financiële administratie.</p>
+          </div>
+          <div class="dienst-card">
+            <div class="dienst-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+            </div>
+            <h3>Loonadministratie</h3>
+            <p>Salarisverwerking, loonstroken en jaaropgaven.</p>
+          </div>
+          <div class="dienst-card">
+            <div class="dienst-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+            </div>
+            <h3>Grootboek</h3>
+            <p>Nauwkeurige grootboekadministratie als fundament van uw financiën.</p>
+          </div>
+          <div class="dienst-card">
+            <div class="dienst-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <h3>Belastingadvies</h3>
+            <p>Persoonlijk advies over uw fiscale mogelijkheden en keuzes.</p>
+          </div>
+          <div class="dienst-card">
+            <div class="dienst-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </div>
+            <h3>Jaarverslagen</h3>
+            <p>Professionele jaarverslagen voor uw stakeholders en bank.</p>
+          </div>
+          <div class="dienst-card">
+            <div class="dienst-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <h3>Resultatenrekening</h3>
+            <p>Inzicht in uw winst en verlies, helder en overzichtelijk.</p>
+          </div>
+          <div class="dienst-card">
+            <div class="dienst-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+            </div>
+            <h3>Budgettering</h3>
+            <p>Realistisch budget opstellen en bewaken voor uw onderneming.</p>
+          </div>
+          <div class="dienst-card">
+            <div class="dienst-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12h18m-18 0l6 6m-6-6l6-6"/></svg>
+            </div>
+            <h3>Kilometerregistratie</h3>
+            <p>Correcte rittenadministratie conform de fiscale regels.</p>
+          </div>
+          <div class="dienst-card">
+            <div class="dienst-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+            </div>
+            <h3>Bankverrichtingen</h3>
+            <p>Verwerking van bankafschriften en betalingsverkeer.</p>
+          </div>
+          <div class="dienst-card">
+            <div class="dienst-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 4h2a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
+            </div>
+            <h3>Debiteuren- &amp; crediteurenbeheer</h3>
+            <p>Bewaking van openstaande facturen en betalingsverplichtingen.</p>
+          </div>
+          <div class="dienst-card">
+            <div class="dienst-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+            </div>
+            <h3>Boeken &amp; betalen facturen</h3>
+            <p>Verwerking en tijdige betaling van al uw facturen.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         6. PARTICULIEREN
+    ═══════════════════════════════════════════════ -->
+    <section class="section audience-section particulieren" id="particulieren">
+      <div class="container">
+        <div class="audience-grid">
+          <div class="audience-text">
+            <span class="section-label">Particulieren</span>
+            <h2 class="section-title">Uw aangifte, zonder gedoe</h2>
+            <p>Of u nu alleenstaand bent, een gezin heeft of als student voor het eerst aangifte doet – bij Bonoo &amp; Partners krijgt u begeleiding in gewone taal. Geen vakjargon, geen onoverzichtelijk papierwerk: wij nemen het van u over en leggen in heldere termen uit wat er geregeld is.</p>
+            <p>Veel particulieren laten aftrekposten liggen die ze simpelweg niet kennen. Onze adviseurs kennen de regelgeving door en door en zorgen dat u precies datgene terugkrijgt waar u recht op heeft.</p>
+            <ul class="check-list" role="list">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Aangifte inkomstenbelasting
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Toeslagen en heffingskortingen
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Eigen woning en hypotheekrenteaftrek
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Studenten: eerste aangifte goed geregeld
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Persoonlijke begeleiding, ook bij complexe situaties
+              </li>
+            </ul>
+            <a href="#contact" class="btn btn-primary nav-link">Afspraak maken</a>
+          </div>
+          <div class="audience-visual particulieren-visual" aria-hidden="true">
+            <div class="audience-badge">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <span>Voor iedereen</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         7. BEDRIJVEN
+    ═══════════════════════════════════════════════ -->
+    <section class="section audience-section bedrijven" id="bedrijven">
+      <div class="container">
+        <div class="audience-grid audience-grid--reversed">
+          <div class="audience-visual bedrijven-visual" aria-hidden="true">
+            <div class="audience-badge">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+              <span>Voor ondernemers</span>
+            </div>
+          </div>
+          <div class="audience-text">
+            <span class="section-label">Bedrijven</span>
+            <h2 class="section-title">Uw cijfers in orde, uw hoofd vrij</h2>
+            <p>Als ondernemer of MKB-bedrijf heeft u genoeg aan uw hoofd. Bonoo &amp; Partners zorgt dat uw administratie klopt, uw jaarrekening op tijd is ingediend en uw loonadministratie geen zorgen oplevert. U heeft één vast aanspreekpunt dat uw bedrijf kent – niet een wisselende medewerker die elke keer opnieuw ingewerkt moet worden.</p>
+            <p>Wij zijn meegegroeid met onze zakelijke klanten door de jaren heen en kennen de uitdagingen van het MKB als geen ander. Of u nu een eenmanszaak runt of een BV met personeel: wij regelen de financiële kant, zodat u kunt ondernemen.</p>
+            <ul class="check-list" role="list">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Volledige administratie en grootboek
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Jaarrekening en jaarverslag
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Loonadministratie en salarisverwerking
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                BTW-aangifte en VPB
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Vast aanspreekpunt dat uw onderneming kent
+              </li>
+            </ul>
+            <a href="#contact" class="btn btn-primary nav-link">Neem contact op</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         8. WERKWIJZE
+    ═══════════════════════════════════════════════ -->
+    <section class="section werkwijze" id="werkwijze">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Werkwijze</span>
+          <h2 class="section-title">Zo eenvoudig werkt het</h2>
+          <p class="section-intro">Van eerste contact tot afgeronde aangifte – wij begeleiden u stap voor stap. U hoeft nergens zelf op te letten.</p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <div class="step-number" aria-hidden="true">1</div>
+            <div class="step-content">
+              <h3>Kennismaking</h3>
+              <p>We bespreken uw situatie en wensen in een persoonlijk gesprek. Zo leren wij u kennen en u ons. Geen verplichtingen, gewoon een open gesprek.</p>
+            </div>
+          </div>
+          <div class="step-connector" aria-hidden="true"></div>
+          <div class="step">
+            <div class="step-number" aria-hidden="true">2</div>
+            <div class="step-content">
+              <h3>Stukken aanleveren</h3>
+              <p>U levert de benodigde documenten aan – wij vertellen u precies wat we nodig hebben. Niets meer, niets minder. U kunt ze langsbrengen of digitaal aanleveren.</p>
+            </div>
+          </div>
+          <div class="step-connector" aria-hidden="true"></div>
+          <div class="step">
+            <div class="step-number" aria-hidden="true">3</div>
+            <div class="step-content">
+              <h3>Verwerking</h3>
+              <p>Wij verwerken alles nauwkeurig en controleren uw aangifte of administratie grondig. Daarna brengen we u op de hoogte van de uitkomst.</p>
+            </div>
+          </div>
+          <div class="step-connector" aria-hidden="true"></div>
+          <div class="step">
+            <div class="step-number" aria-hidden="true">4</div>
+            <div class="step-content">
+              <h3>Advies &amp; indiening</h3>
+              <p>We bespreken het resultaat, geven eventueel aanvullend advies en dienen de aangifte in. Klaar – u kunt met een gerust hart verder.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         9. VERTROUWEN & REVIEWS
+    ═══════════════════════════════════════════════ -->
+    <section class="section vertrouwen" id="vertrouwen">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Ervaringen</span>
+          <h2 class="section-title">Wat onze klanten zeggen</h2>
+          <p class="section-intro">Vertrouwen bouw je op door jaar na jaar te leveren wat je belooft. Dat is precies wat wij al meer dan veertig jaar doen.</p>
+        </div>
+        <div class="reviews-grid">
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 sterren">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote>
+              <p>"Al meer dan vijftien jaar komen wij hier voor onze belastingaangifte. Altijd rustig, altijd correct en altijd eerlijk over wat we kunnen verwachten. Een kantoor dat zijn werk écht kent."</p>
+            </blockquote>
+            <footer>
+              <strong>Familie De Groot</strong>
+              <span>Klant sinds 2008, Purmerend</span>
+            </footer>
+          </article>
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 sterren">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote>
+              <p>"Als zzp'er was ik altijd bezorgd over mijn administratie. Bonoo &amp; Partners heeft alles overzichtelijk gemaakt. Nu weet ik precies waar ik sta en wat ik kan verwachten van de Belastingdienst."</p>
+            </blockquote>
+            <footer>
+              <strong>M. Visser</strong>
+              <span>Zelfstandig ondernemer, Purmerend</span>
+            </footer>
+          </article>
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 sterren">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote>
+              <p>"Mijn vader ging hier al naartoe. Nu doe ik dat ook, en mijn kinderen zullen dat waarschijnlijk ook doen. Dat zegt alles over het vertrouwen dat dit kantoor weet op te bouwen."</p>
+            </blockquote>
+            <footer>
+              <strong>R. Bakker</strong>
+              <span>Klant tweede generatie, Beemster</span>
+            </footer>
+          </article>
+        </div>
+
+        <div class="trust-pillars">
+          <div class="trust-pillar">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <strong>Persoonlijk contact</strong>
+            <p>Altijd bereikbaar voor uw vragen</p>
+          </div>
+          <div class="trust-pillar">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+            <strong>Vaste tarieven</strong>
+            <p>Eerlijk, transparant en zonder verrassingen</p>
+          </div>
+          <div class="trust-pillar">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            <strong>Jarenlange relaties</strong>
+            <p>Klanten die generaties lang terugkomen</p>
+          </div>
+          <div class="trust-pillar">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <strong>Op tijd</strong>
+            <p>Nooit een deadline gemist</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         10. CONTACT
+    ═══════════════════════════════════════════════ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Contact</span>
+          <h2 class="section-title">Neem gerust contact op</h2>
+          <p class="section-intro">Heeft u een vraag of wilt u een afspraak maken? Bel ons, stuur een e-mail of vul het formulier in. We reageren binnen één werkdag.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-block">
+              <h3>Bezoekadres</h3>
+              <address>
+                <p>De Vriesplein 2A<br>1442 CG Purmerend</p>
+              </address>
+            </div>
+            <div class="contact-block">
+              <h3>Telefoon</h3>
+              <p><a href="tel:02994218881" class="contact-link">0299 421 881</a></p>
+              <p><a href="tel:0654658807" class="contact-link">06 54 658 807</a></p>
+            </div>
+            <div class="contact-block">
+              <h3>E-mail</h3>
+              <p><a href="mailto:info@bonoo-belastingzaken.nl" class="contact-link">info@bonoo-belastingzaken.nl</a></p>
+            </div>
+            <div class="contact-block">
+              <h3>Openingstijden</h3>
+              <dl class="hours-list">
+                <div class="hours-row">
+                  <dt>Maandag – vrijdag</dt>
+                  <dd>09:00 – 17:00</dd>
+                </div>
+                <div class="hours-row">
+                  <dt>Zaterdag – zondag</dt>
+                  <dd>Gesloten</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="naam">Naam <span aria-hidden="true">*</span></label>
+              <input type="text" id="naam" name="naam" required autocomplete="name" placeholder="Uw volledige naam" />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mailadres <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" required autocomplete="email" placeholder="uw@email.nl" />
+            </div>
+            <div class="form-group">
+              <label for="telefoon">Telefoonnummer</label>
+              <input type="tel" id="telefoon" name="telefoon" autocomplete="tel" placeholder="Optioneel" />
+            </div>
+            <div class="form-group">
+              <label for="bericht">Bericht <span aria-hidden="true">*</span></label>
+              <textarea id="bericht" name="bericht" required rows="5" placeholder="Wat kunnen wij voor u betekenen?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Bericht versturen
+            </button>
+            <p class="form-note">Wij reageren binnen één werkdag. Uw gegevens worden vertrouwelijk behandeld.</p>
+            <div class="form-success" id="form-success" role="alert" aria-live="polite" hidden>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Bedankt voor uw bericht. Wij nemen zo snel mogelijk contact met u op.
+            </div>
+          </form>
+        </div>
+
+        <div class="map-wrapper">
+          <iframe
+            title="Locatie Bonoo &amp; Partners – De Vriesplein 2A, Purmerend"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.876752049!2d4.951!3d52.503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5f70e84cf7861%3A0x1234567890abcdef!2sDe%20Vriesplein%202A%2C%201442%20CG%20Purmerend!5e0!3m2!1snl!2snl!4v1700000000000!5m2!1snl!2snl"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="logo logo--light" aria-label="Bonoo &amp; Partners – naar beginpagina">
+          <img src="assets/images/logo.png" alt="Bonoo &amp; Partners" class="logo-img logo-img--footer" />
+        </a>
+        <p class="footer-tagline">Vakkundig en betrouwbaar sinds 1983</p>
+        <p class="footer-kvk">KvK-nummer: 33203911</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Snelle links">
+        <h3>Snelle links</h3>
+        <ul role="list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#over-ons" class="nav-link">Over ons</a></li>
+          <li><a href="#expertise" class="nav-link">Expertise</a></li>
+          <li><a href="#diensten" class="nav-link">Diensten</a></li>
+          <li><a href="#particulieren" class="nav-link">Particulieren</a></li>
+          <li><a href="#bedrijven" class="nav-link">Bedrijven</a></li>
+          <li><a href="#werkwijze" class="nav-link">Werkwijze</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <address>
+          <p>De Vriesplein 2A<br>1442 CG Purmerend</p>
+          <p><a href="tel:02994218881">0299 421 881</a></p>
+          <p><a href="tel:0654658807">06 54 658 807</a></p>
+          <p><a href="mailto:info@bonoo-belastingzaken.nl">info@bonoo-belastingzaken.nl</a></p>
+        </address>
+      </div>
+
+      <div class="footer-hours">
+        <h3>Openingstijden</h3>
+        <dl class="hours-list">
+          <div class="hours-row">
+            <dt>Ma – Vr</dt>
+            <dd>09:00 – 17:00</dd>
+          </div>
+          <div class="hours-row">
+            <dt>Za – Zo</dt>
+            <dd>Gesloten</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="footer-year"></span> Bonoo &amp; Partners. Alle rechten voorbehouden.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="src/main.js"></script>
+</body>
+</html>
